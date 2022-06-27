@@ -3,6 +3,7 @@
     "main": {
       "type": "about",
       "settings": {
+        "page-heading": "About Page"
       }
     }
   },
