@@ -3,6 +3,7 @@
     "main": {
       "type": "home-page",
       "settings": {
+        "main-text": "Hello World"
       }
     }
   },
