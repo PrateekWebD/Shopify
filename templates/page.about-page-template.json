@@ -3,7 +3,8 @@
     "main": {
       "type": "about",
       "settings": {
-        "page-heading": "About Page"
+        "page-heading": "About Page",
+        "featured-image": "shopify:\/\/shop_images\/images.jpg"
       }
     }
   },
