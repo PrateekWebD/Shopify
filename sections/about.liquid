@@ -1,12 +1,17 @@
 {% schema %}
   {
     "name": "Section name",
-    "settings": []
+    "settings": [
+		{
+            "id": "page-heading",
+            "type": "text",
+            "label": "Page Heading"
+        },
+		{
+            "id": "featured-image",
+            "type": "image_picker",
+            "label": "Featured Image"
+        }
+	]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
