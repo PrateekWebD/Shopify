@@ -1,3 +1,8 @@
+{% for collection in collections %}
+  {{collection.image | image_url}}
+{% endfor %}
+
+
 {% schema %}
   {
     "name": "Section name",
