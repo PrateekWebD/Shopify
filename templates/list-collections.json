@@ -3,11 +3,6 @@
     "main": {
       "type": "main-list-collections",
       "settings": {
-        "heading": "All Collections",
-        "list": [
-          "cars",
-          "demo-collection"
-        ]
       }
     }
   },
