@@ -1,22 +1,7 @@
 <h1>{{collection.title}}</h1>
-{% assign collections = section.settings.list %}
 
 {% for collection in collections %}
 	<h1>{{collection.title}}</h1>>
 	<a href="{{collection.url}}"><img src="{{collection.image | image_url}}"></a>
 {% endfor %}
-
-
-{% schema %}
-    {
-        "name": "Customize",
-		"settings": [
-            {
-                "id": "list",
-                "type": "collection_list",
-                "label": "Collection List"
-            }
-        ]
-    }
-{% endschema %}
 
