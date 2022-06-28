@@ -1,10 +1,10 @@
-<!-- {% for collection in collections %}
-  {{'collection'}}
-{% endfor %} -->
-
 <h1>{{section.settings.heading}}</h1>
 {% assign collections = section.settings.list %}
-{{collections}}
+
+{% for collection in collections %}
+  {{'collection'}}
+{% endfor %}
+
 
 {% schema %}
     {
