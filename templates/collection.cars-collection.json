@@ -12,7 +12,11 @@
     "product-grid": {
       "type": "my-collection-product-grid",
       "settings": {
-        "heading": "Cars"
+        "heading": "Cars",
+        "product_list": [
+          "car-1",
+          "car-2"
+        ]
       }
     }
   },
