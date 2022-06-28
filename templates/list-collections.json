@@ -5,7 +5,9 @@
       "settings": {
         "heading": "All Collections",
         "list": [
-
+          "cars",
+          "branded-cars",
+          "demo-collection"
         ]
       }
     }
