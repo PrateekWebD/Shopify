@@ -1,4 +1,4 @@
-<h1>{{collection.heading}}</h1>
+<h1>{{section.settings.heading}}</h1>
 {% assign collections = section.settings.list %}
 
 {% for collection in collections %}
@@ -11,6 +11,11 @@
     {
         "name": "Customize",
         "settings": [
+            {
+                "id": "heading",
+                "type": "text",
+                "label": "Heading"
+            },
             {
                 "id": "list",
                 "type": "collection_list",
