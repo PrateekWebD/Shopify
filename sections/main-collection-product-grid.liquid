@@ -1,6 +1,7 @@
 <h1>{{collection.title}}</h1>
 
 {% for product in products %}
-	{{product.title}}	
+	<h2>{{product.title}}</h2>
+	<img src="{{product.image | image_url}}">
 
 {% endfor %}
