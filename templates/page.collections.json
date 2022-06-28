@@ -3,6 +3,10 @@
     "main": {
       "type": "new-collections",
       "settings": {
+        "heading": "Collections",
+        "list": [
+
+        ]
       }
     }
   },
