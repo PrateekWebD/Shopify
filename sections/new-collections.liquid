@@ -1,11 +1,23 @@
-{% for collection in collections %}
+<!-- {% for collection in collections %}
   {{'collection'}}
-{% endfor %}
+{% endfor %} -->
 
+<h1>{{section.settings.heading}}</h1>
 
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+    {
+        "name": "Customize",
+        "settings": [
+            {
+                "id": "heading",
+                "type": "text",
+                "label": "Heading"
+            },
+            {
+                "id": "list",
+                "type": "collection_list",
+                "label": "Collection List"
+            }
+        ]
+    }
 {% endschema %}
