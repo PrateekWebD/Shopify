@@ -1,27 +1,6 @@
-<h1>{{section.settings.heading}}</h1>
-{% assign products = section.settings.product_list %}
-{% for product in products %}
-	{{product.title}}
-	{% for image in product.images %}
-		<a href="product.url"><img src="{{image | image_url}}"></a>
-	{% endfor %}
-{% endfor %}
+<h1>{{collection.title}}</h1>
 
-{% schema %}
-    {
-        "name": "Customize",
-        "settings": [
-            {
-                "id": "heading",
-                "type": "text",
-                "label": "Heading"
-            },
-			{
-                "type": "product_list",
-                "id": "product_list",
-                "label": "Products",
-                "limit": 12
-           	}
-        ]
-    }
-{% endschema %}
+{% for product in products %}
+	<h2>{{product.title}}</h2>
+	<a href="{{product.url}}"><img src="{{product.featured_image | image_url}}"></a>
+{% endfor %}
