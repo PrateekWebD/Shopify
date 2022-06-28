@@ -2,7 +2,8 @@
 {% assign collections = section.settings.list %}
 
 {% for collection in collections %}
-  <img src="{{collection.image | image_url}}">
+	<h1>{{collection.title}}</h1>>
+	<img src="{{collection.image | image_url}}">
 {% endfor %}
 
 
