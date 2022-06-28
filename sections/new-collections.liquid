@@ -3,7 +3,8 @@
 {% endfor %} -->
 
 <h1>{{section.settings.heading}}</h1>
-{{section.settings.list}}
+{% assign collections = section.settings.list %}
+{{collections}}
 
 {% schema %}
     {
