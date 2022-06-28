@@ -3,7 +3,7 @@
 
 {% for collection in collections %}
 	<h1>{{collection.title}}</h1>>
-	<img src="{{collection.image | image_url}}">
+	<a href="{{collection.url}}"><img src="{{collection.image | image_url}}"></a>
 {% endfor %}
 
 
