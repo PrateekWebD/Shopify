@@ -5,7 +5,8 @@
       "settings": {
         "heading": "Collections",
         "list": [
-          "cars"
+          "cars",
+          "demo-collection"
         ]
       }
     }
