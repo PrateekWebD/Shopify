@@ -2,7 +2,6 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
@@ -12,11 +11,6 @@
     "product-grid": {
       "type": "my-collection-product-grid",
       "settings": {
-        "heading": "Cars",
-        "product_list": [
-          "car-1",
-          "car-2"
-        ]
       }
     }
   },
