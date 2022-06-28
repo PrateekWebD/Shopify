@@ -2,6 +2,6 @@
 
 {% for product in products %}
 	<h2>{{product.title}}</h2>
-	<img src="{{product.image | image_url}}">
+	<img src="{{product.featured_image | image_url}}">
 
 {% endfor %}
